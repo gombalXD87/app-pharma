@@ -427,3 +427,7 @@ Route::get('/facturas/proveedores/resumen', function () {
 
     echo $html;
 });
+
+Route::get('/Clientes/registro', function () {
+    return view('Ejercicio.vista02');
+});
